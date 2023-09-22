@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#topo{
+	width: 100%;
+	height: 400px;
+	border: 1px solid red;
+	background: #294c71 url(imagens/fundo.png) repeat-x left bottom;
+
+}
+
+#conteudo{
+	width: 80%;
+	height: 1000px;
+	margin-bottom: 2em;
+	margin-top: 0px;
+	margin: auto;
+}
+
+.coluna{
+	width: 30%;
+	height: 900px;
+	border: 1px solid red;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 1%;
+	background: url(imagens/fundo-caixa.png);
+}
+
+.coluna ul{
+	list-style: none;
+	margin: 10px;
+	padding: 0;
+	background-color: white;
+}
+
+.coluna ul li{
+	padding: 2px;
+	margin: 10px;
+}
+
+#rodape{
+	width: 100%;
+	height: 2000px;
+	border: 1px solid red;
+}
+
+.logo{
+	position: absolute;
+	left: 20%;
+	top: 5%;
+
+}
+
+.brasil{
+	position: absolute;
+	left: 70%;
+	top: 5%;
+}
+
+#topo ul{
+	background: #b10333;
+	list-style: none;
+	position: relative;
+	top: 60%;
+	left: 20%;
+	float: left;
+}
+
+#topo ul li{
+	float: left;
+}
+
+
+#topo ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(imagens/divisor.png) no-repeat left center;
+
+}
+
+#topo ul a:hover{
+	color: #69001d;
+
+}
+
+h2{
+	background: #294c71;
+	color: white;
+	margin: 10px;
+}
+
+h3{
+	background: red;
+	color: black;
+	margin: 10px;
+}
+
+.figuras{
+	width: 90%;
+	position: relative;
+	left: 10px;
+}
+
+.white{
+	background-color: white;
+	margin: 10px;
+	padding: 1px;
+}
